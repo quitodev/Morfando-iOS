@@ -1,0 +1,34 @@
+# Xcode
+
+## Build generated
+build/
+DerivedData/ 
+
+# General
+.DS_Store
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+Pods/
+*.xcodeproj
+*.xcworkspace
+#
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Files
+*.plist
+/Morfando/Data/
+/Morfando/Presentation/
+/Morfando/UI/Launch/
+/Morfando/UI/Login/
+/Morfando/UI/Main/Account/
+/Morfando/UI/Main/Home/
+/Morfando/UI/Main/Maps/
+/Morfando/UI/Main/Ubication/
+/Morfando/UI/Main/MainView.swift
+/Morfando/Utils/
